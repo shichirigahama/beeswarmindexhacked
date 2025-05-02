@@ -28228,10 +28228,10 @@ function BeeSwarmSimulator(DATA){
                 name:'royalJelly',
                 slot:'item',
                 viewMatrix:[32+4.5,12,50.25-4.5,-MATH.HALF_PI-MATH.QUATER_PI,0.02],
-                cost:[(n,i=1)=>Math.floor(Math.min(n*2500+25000,1000000)*i)+' honey'],
-                desc:'Can be fed to a bee to transform it into a different type!'
+                cost:['0 honey'],
+                desc:'try your luck with rng'
             }],
-            currentIndex:0,message:'Explore Royal Jelly Shop',currentIncrement:0,increments:[1,10,10e1,10e2,10e3,10e4]
+            currentIndex:0,message:'Explore RNG Jelly Shop',currentIncrement:0,increments:[1,10,10e1,10e2,10e3,10e4]
         },
 
         basicEgg:{
@@ -28294,10 +28294,10 @@ function BeeSwarmSimulator(DATA){
                 name:'gumdrops',
                 slot:'item',
                 viewMatrix:[-28.5+5.5,4.5,46,-MATH.HALF_PI,0.02],
-                cost:[(n,i=3)=>(i/3)+' ticket'],
-                desc:'Can be used to cover fields in goo, granting bonus honey!'
+                cost:['0 ticket'],
+                desc:'cover pollen in sticky stuff oo'
             }],
-            currentIndex:0,message:'Explore Gumdrop Shop',currentIncrement:0,increments:[3,30,30e1]
+            currentIndex:0,message:'Explore Sticky Thing Shop',currentIncrement:0,increments:[3,30,30e1]
         },
 
         diamond:{
@@ -28335,56 +28335,56 @@ function BeeSwarmSimulator(DATA){
                 name:'goldEgg',
                 slot:'item',
                 viewMatrix:[28.25+2,4,-17.25,-MATH.HALF_PI,-0.2],
-                cost:['25 ticket'],
+                cost:['0 ticket'],
                 desc:'Can be used to hatch an epic, legendary, or mythic bee!<br><br>The bee has a small chance to be gifted!'
             },{
                 amountPurchased:0,maxPurchasedAmount:Infinity,
                 name:'starTreat',
                 slot:'item',
                 viewMatrix:[28.25+2,4,-19.25,-MATH.HALF_PI,-0.2],
-                cost:['250 ticket'],
+                cost:['0 ticket'],
                 desc:'Can be fed to any bee to make it gifted!<br><br>It\s best to use Star Treats on event bees as it\'s the only way to make them gifted.'
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'puppyBeeEgg',
                 slot:'item',
                 viewMatrix:[28.25+2,4,-21.25,-MATH.HALF_PI,-0.2],
-                cost:['150 ticket'],
+                cost:['0 ticket'],
                 desc:"This bee loves to play! It helps with bee bonding and will sometimes reward you treats by playing fetch!<br><br>(Honestly even with the buff in this version you still shouldn't buy it, it's rlly bad)"
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'photonBeeEgg',
                 slot:'item',
                 viewMatrix:[28.25+2,4,-23.25,-MATH.HALF_PI,-0.2],
-                cost:['150 ticket'],
+                cost:['0 ticket'],
                 desc:'An entity made of pure light! Fires beams from the sky to collect massive amounts of pollen at once.'
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'tabbyBeeEgg',
                 slot:'item',
                 viewMatrix:[33.75-2,4,-23.25,MATH.HALF_PI,-0.2],
-                cost:['150 ticket'],
+                cost:['0 ticket'],
                 desc:'An affectionate bee who becomes a harder worker as it warms up to you.'
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'festiveBeeEgg',
                 slot:'item',
                 viewMatrix:[33.75-2,4,-21.25,MATH.HALF_PI,-0.2],
-                cost:['150 ticket'],
+                cost:['0 ticket'],
                 desc:'A generous bee who spreads the joy of Beesmas by occasionally hands out random gifts to you!'
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'crimsonBeeEgg',
                 slot:'item',
                 viewMatrix:[33.75-2,4,-19.25,MATH.HALF_PI,-0.2],
-                cost:['75 ticket'],
+                cost:['0 ticket'],
                 desc:'Defender of all things red! Excels in hives with many red bees. Has enhanced abilities when working with Cobalt Bee.'
             },{
                 amountPurchased:0,maxPurchasedAmount:1,
                 name:'cobaltBeeEgg',
                 slot:'item',
                 viewMatrix:[33.75-2,4,-17.25,MATH.HALF_PI,-0.2],
-                cost:['75 ticket'],
+                cost:['0 ticket'],
                 desc:'Defender of all things blue! Excels in hives with many blue bees. Has enhanced abilities when working with Crimson Bee.'
             }],
             currentIndex:0,message:'Explore Ticket Tent'
