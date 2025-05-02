@@ -22055,12 +22055,12 @@ function BeeSwarmSimulator(DATA){
             }
 
             out.restrictionInfo.allowed_5=amountOfBees>=5?true:'get five bees first bro'
-            out.restrictionInfo.allowed_10=amountOfBees>=10?true:'great job getting those five bees! get five more so you have ten'
-            out.restrictionInfo.allowed_15=amountOfBees>=15?true:'atp idc how many bees you get just get 15 bees to go here'
-            out.restrictionInfo.allowed_20=amountOfBees>=20?true:'get five more, you need 20 bees'
-            out.restrictionInfo.allowed_25=amountOfBees>=25?true:'you know the drill, get five more bees and then talk to me'
-            out.restrictionInfo.allowed_30=amountOfBees>=30?true:'five more buddy'
-            out.restrictionInfo.allowed_35=amountOfBees>=35?true:'last one I promise, but get 5 more'
+            out.restrictionInfo.allowed_10=amountOfBees>=10?true:'you need ten bees buddy'
+            out.restrictionInfo.allowed_15=amountOfBees>=15?true:'atp idc just get 15 bees to go here'
+            out.restrictionInfo.allowed_20=amountOfBees>=20?true:'bro the egg shop is literally free, just get 20 bees bro'
+            out.restrictionInfo.allowed_25=amountOfBees>=25?true:'you know you drill, just get 25 bees'
+            out.restrictionInfo.allowed_30=amountOfBees>=30?true:'Thirty. NOW.'
+            out.restrictionInfo.allowed_35=amountOfBees>=35?true:'35 aint even that hard'
             out.restrictionInfo.allowed_redHQ=redTypes>=4?true:'find 4 red bee types to go here'
             out.restrictionInfo.allowed_blueHQ=blueTypes>=4?true:'idk if you got 4 red type bees yet but to go here get 4 blue types'
             out.restrictionInfo.allowed_sprinkler=legendaryTypes>=1?true:'find, or hatch at least one legendary bee to go in here bucko'
